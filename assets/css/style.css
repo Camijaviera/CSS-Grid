@@ -33,28 +33,9 @@ body{
  
 }
 
-.flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
-   
-    
-}
-
-.flex-aside{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    
-}
-
 .aside{
     grid-area: b;
     background-color: rgb(213, 203, 203);
-   
 
 }
 
@@ -71,6 +52,23 @@ body{
     
 }
 
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+     
+}
+
+
+.flex-aside{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
 .margin{
     margin-bottom: 10px;
     margin-top: 10px;
@@ -83,9 +81,10 @@ body{
 .margin-bottom{
     margin-bottom: 25px;
 }
+
 /* Segundo Grid */
 
-.grid-container-list{
+.grid-container-card{
     display: grid;
     gap: 15px;
     height: 100%;
@@ -129,8 +128,8 @@ button:hover{
     
 }
 
-button:visited{
-   color: aqua;
+button:active{
+   color: rgb(9, 10, 25);
 }
 
 .margin-x{
