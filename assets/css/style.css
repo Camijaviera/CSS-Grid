@@ -82,11 +82,16 @@ body{
     margin-bottom: 25px;
 }
 
+.margin-btn{
+    margin-left: 10px;
+}
+
+
 /* Segundo Grid */
 
 .grid-container-card{
     display: grid;
-    gap: 15px;
+    gap: 1rem;
     height: 100%;
     grid-template-columns: repeat(auto-fit, minmax(300px,auto));
     margin-left: 10px;  
@@ -119,6 +124,7 @@ body{
     color: white;
     border: rgb(3, 3, 109) solid;
     text-decoration: none;
+   
     
 }
 
@@ -132,7 +138,7 @@ button:active{
    color: rgb(9, 10, 25);
 }
 
-.margin-x{
+.margin-y{
     margin-top: 0.5rem;
     margin-bottom: 5px;
 }
